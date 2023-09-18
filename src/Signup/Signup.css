@@ -1,0 +1,73 @@
+.Signup{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: blueviolet;
+    background: url("9574.png");
+    background-repeat: cover;
+    font-family: "Sofia", sans-serif;
+
+
+  
+}
+.logintitle
+{
+    font-size: 4rem;
+    font-family: "Sofia", sans-serif;
+    position: relative;
+    top:30px;
+}
+.loginform
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform label{
+    margin: 10px 0;
+    font-size: 2rem;
+    font-family: "Sofia", sans-serif;
+    
+}
+.logininput{
+    padding: 10px;
+    background-color:rgb(3, 42, 42);
+    border:none;
+    color:white;
+    width: 300px;
+    font-size: 1rem;
+    
+}
+.loginform button{
+    
+    width: 250px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    color: rgb(249, 248, 247);
+      box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+    margin-top: 30px;
+    cursor: pointer;}
+
+.loginregisterbutton{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(249, 248, 247);
+    box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+    cursor: pointer;
+position: absolute;
+top: 0px;
+right: 20px;}
+    

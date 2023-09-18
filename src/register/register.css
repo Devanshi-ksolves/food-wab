@@ -1,0 +1,68 @@
+.Register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: blueviolet;
+    background: url("9574.png");
+    background-repeat: cover;
+    font-family: "Sofia", sans-serif;
+
+  
+}
+.Registertitle
+{
+    font-size: 3rem;
+    font-family: "Sofia", sans-serif;
+}
+.Registerform
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Registerform label{
+    margin: 10px 0;
+    font-family: "Sofia", sans-serif;
+}
+.Registerinput{
+    padding: 10px;
+    background-color:rgb(3, 42, 42);;
+    border: white;
+    color:white;
+    width: 300px;
+}
+.Registerbutton{
+    
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    color: rgb(249, 248, 247);
+      box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+    margin-top: 20px;
+    cursor: pointer;}
+
+    .loginregisterbutton{
+
+    
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(249, 248, 247);
+    box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+    cursor: pointer;
+position: absolute;
+top: 0px;
+right: 20px;}
+    
